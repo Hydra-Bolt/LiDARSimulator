@@ -36,10 +36,10 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/username/rrt-path-planning.git
+git clone https://github.com/Hydra-Bolt/LiDARSimulator.git
 
 # Navigate into the directory
-cd rrt-path-planning
+cd LiDARSimulator
 
 # Install the required dependencies
 pip install -r requirements.txt
