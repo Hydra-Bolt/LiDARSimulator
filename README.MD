@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/your_image.png" alt="Project Screenshot" width="600">
+    <img src="https://github.com/Hydra-Bolt/LiDARSimulator/blob/ad2e864feb9d65b166b77915d4b2917b7a9542f6/maps/example.png" alt="Project Screenshot" width="600">
 </p>
 
 ---
