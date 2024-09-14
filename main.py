@@ -2,10 +2,18 @@ import env
 import sensors
 import pygame
 
+from streetGenerator import VEHICLES, StreetGenerator
 
-environment = env.buildEnvironment((600, 1200))
+# Example usage
+streetWidth = 600
+streetHeight = 800
+
+street_generator = StreetGenerator(streetWidth, streetHeight, 0.5, VEHICLES)
+street_generator.createStreet()
+
+environment = env.buildEnvironment((800, 600))
 environment.originalMap = environment.map.copy()
-laser = sensors.LaserSensor(200, environment.originalMap, uncertainity=(0.5,0.01))
+laser = sensors.LaserSensor(500, environment.originalMap, uncertainity=(0.5,0.01))
 environment.map.fill((0,0,0))
 environment.infomap = environment.map.copy()
 
