@@ -10,6 +10,7 @@ def uncertainity(distance, angle, sigma):
     distance = distance if distance > 0 else 0
     angle = angle if angle > 0 else 0
     return [distance, angle]
+
 class LaserSensor:
     def __init__(self, Range, map, uncertainity):
         self.range = Range
